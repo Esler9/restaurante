@@ -43,83 +43,61 @@ require_once __DIR__ . '/../partials/validar_sesion.php';
                     <div class="row">
                         <!-- Tarjeta 1 -->
                         <div class="col-lg-3 col-6">
-                            <div class="small-box bg-info">
-                                <div class="inner">
-                                    <h3>150</h3>
-                                    <p>Productos</p>
+                            <div class="card text-white bg-info mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">150</h3>
+                                    <p class="card-text">Productos</p>
                                 </div>
-                                <div class="icon">
-                                    <i class="fas fa-boxes"></i>
+                                <div class="card-footer">
+                                    <a href="/productos" class="btn btn-light">
+                                        Más información <i class="fas fa-arrow-circle-right"></i>
+                                    </a>
                                 </div>
-                                <a href="/productos" class="small-box-footer">
-                                    Más información <i class="fas fa-arrow-circle-right"></i>
-                                </a>
                             </div>
                         </div>
 
                         <!-- Tarjeta 2 -->
                         <div class="col-lg-3 col-6">
-                            <div class="small-box bg-success">
-                                <div class="inner">
-                                    <h3>53</h3>
-                                    <p>Ventas de Hoy</p>
+                            <div class="card text-white bg-success mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">53</h3>
+                                    <p class="card-text">Ventas de Hoy</p>
                                 </div>
-                                <div class="icon">
-                                    <i class="fas fa-shopping-cart"></i>
+                                <div class="card-footer">
+                                    <a href="/ventas" class="btn btn-light">
+                                        Más información <i class="fas fa-arrow-circle-right"></i>
+                                    </a>
                                 </div>
-                                <a href="/ventas" class="small-box-footer">
-                                    Más información <i class="fas fa-arrow-circle-right"></i>
-                                </a>
                             </div>
                         </div>
                         
-                         <!-- Tarjeta 2 -->
-                         <div class="col-lg-3 col-6">
-                            <div class="small-box bg-success">
-                                <div class="inner">
-                                    <h3>53</h3>
-                                    <p>Ventas de Hoy</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </div>
-                                <a href="/ventas" class="small-box-footer">
-                                    Más información <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                      
-                      
-
                         <!-- Tarjeta 3 -->
                         <div class="col-lg-3 col-6">
-                            <div class="small-box bg-warning">
-                                <div class="inner">
-                                    <h3>44</h3>
-                                    <p>Usuarios</p>
+                            <div class="card text-white bg-warning mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">44</h3>
+                                    <p class="card-text">Usuarios</p>
                                 </div>
-                                <div class="icon">
-                                    <i class="fas fa-users"></i>
+                                <div class="card-footer">
+                                    <a href="/usuarios" class="btn btn-light">
+                                        Más información <i class="fas fa-arrow-circle-right"></i>
+                                    </a>
                                 </div>
-                                <a href="/usuarios" class="small-box-footer">
-                                    Más información <i class="fas fa-arrow-circle-right"></i>
-                                </a>
                             </div>
                         </div>
 
                         <!-- Tarjeta 4 -->
                         <div class="col-lg-3 col-6">
-                            <div class="small-box bg-danger">
-                                <div class="inner">
-                                    <h3>65</h3>
-                                    <p>Pedidos Pendientes</p>
+                            <div class="card text-white bg-danger mb-3">
+                                <div class="card-body">
+                                    <h3 class="card-title">65</h3>
+                                    <p class="card-text">Pedidos Pendientes</p>
                                 </div>
-                                <div class="icon">
-                                    <i class="fas fa-clock"></i>
+                                <div class="card-footer">
+                                    <a href="/pedidos" class="btn btn-light">
+                                        Más información <i class="fas fa-arrow-circle-right"></i>
+                                    </a>
                                 </div>
-                                <a href="/pedidos" class="small-box-footer">
-                                    Más información <i class="fas fa-arrow-circle-right"></i>
-                                </a>
                             </div>
                         </div>
                     </div>
